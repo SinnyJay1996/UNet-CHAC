@@ -6,6 +6,3 @@ The example project for automatic detection and measurement of UO2 grain size co
 
 # Code Description
 The comprehensive UNet-CHAC method comprises three code modules: UNet, CHAC, and post-processing (utilizing the watershed algorithm for statistical output). Within each module, we have included extensive comments for every command line. These comments are intended to be beneficial for individuals familiar with Python, OpenCV, NumPy, Jupyter Notebook, and Google Colab, as they enable quick utilization of the provided code. Additionally, the "User manual" contains a list of other important considerations. If you encounter any issues not covered in the comments, please refer to the manual for further guidance.
-
-# Author
-Xinyuan Xu, PhD Candidate of Nuclear Engineering, Penn State, xkx5062@psu.edu
