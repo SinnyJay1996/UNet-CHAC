@@ -38,7 +38,7 @@ sure_bg = cv2.dilate(opening,kernel,iterations=10)
 #distance their respective distances from the closest 0 value (boundary).
 dist_transform = cv2.distanceTransform(opening,cv2.DIST_L2,3)
 
-#Let us threshold the dist transform by 10% its max value.
+#Let us threshold the dist transform by 5% its max value.
 #print(dist_transform.max()) gives about 21.9
 ret2, sure_fg = cv2.threshold(dist_transform,0.05*dist_transform.max(),255,0)
 
